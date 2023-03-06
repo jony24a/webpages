@@ -869,7 +869,7 @@ Todo Contenido --*/
 /*---------
 Button --*/
 
-button {
+.button-back {
     font-family: Aquire;
     align-items: center;
     background-color: transparent;
@@ -885,7 +885,7 @@ button {
     padding: 1rem;
 }
 
-button:before {
+.button-back:before {
     background-color: #fff;
     content: "";
     display: inline-block;
