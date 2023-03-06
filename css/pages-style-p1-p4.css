@@ -16,7 +16,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
      line-height: 1.15;
      /* 1 */
      -webkit-text-size-adjust: 100%;
@@ -693,6 +693,18 @@ First Content --*/
      padding: 0px 60px;
      align-items: center;
      justify-content: center;
+}
+
+/*---------
+Sec p2 --*/
+.sec {
+     background-image: url('../img/img-pages/llleaves.svg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+     padding: 10px;
+     margin: 30px 0;
 }
 
 /*-------------
