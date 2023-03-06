@@ -710,6 +710,7 @@ Content Columns --*/
      border: 1px solid #ffffff56;
      padding: 20px;
      margin: 10px auto;
+     flex-basis: 50%;
 }
 
 .g-border {
