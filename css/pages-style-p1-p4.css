@@ -1,8 +1,7 @@
-/*
+/* 
 *
 * Author: Samuel Novoa
-* Author: Jonatan Novoa
-* Description: Style for index page
+* Description: Styles for pages from 1 to 5
 * Version: 1.0
 *
 */
@@ -17,7 +16,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
      line-height: 1.15;
      /* 1 */
      -webkit-text-size-adjust: 100%;
@@ -387,9 +386,9 @@ template {
      display: none;
 }
 
-/* ------------------------------------------------------------- */
-/*---------------------
-Variables Globales --*/
+/*---------------------------------------------------------------------------*/
+/*------------------
+Global Variable --*/
 * {
      margin: 0;
      padding: 0;
@@ -421,8 +420,9 @@ h6 {
      line-height: normal;
 }
 
-h2 span {
+h2 {
      font-family: Aquire;
+     margin-bottom: 0.8em;
 }
 
 /*-------
@@ -443,6 +443,10 @@ a {
      text-decoration: none;
      font-family: var(--main-font);
      color: #fff;
+}
+
+li {
+     list-style: none;
 }
 
 /*-------
@@ -630,43 +634,6 @@ Align Wide --*/
 }
 
 /*----------
-Welcome --*/
-#home {
-     background-image: url(../img/bbblurry.svg);
-     background-repeat: no-repeat;
-     /* background-attachment: fixed; */
-     background-position: center;
-     background-size: cover;
-}
-
-#home-content {
-     column-count: 2;
-     column-gap: 2rem;
-     display: flex;
-}
-
-@media screen and (max-width: 600px) {
-     #home-content {
-          column-count: 1;
-          display: block;
-     }
-}
-
-/*------------------
-Image container --*/
-.outer-image {
-     position: relative;
-}
-
-.inner-image {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 54%;
-}
-
-/*----------
 Spacier --*/
 .spacier {
      visibility: visible;
@@ -690,91 +657,105 @@ Hidden Content --*/
      }
 }
 
-/*------------------
-Content Columns --*/
-#content {
-     margin: 20px;
-     column-gap: 2rem;
-     display: flex;
-     justify-content: center;
-}
-
-@media screen and (max-width: 600px) {
-     #content {
-          column-count: 1;
-          display: block;
-     }
-}
-
-.item {
-     border: 1px solid #ffffff56;
-     padding: 20px;
-     margin: 10px auto;
-}
-
-.g-border {
-     padding: 20px;
-     margin: 10px auto;
-     position: relative;
-     justify-content: center;
-     align-items: center;
-     color: white;
-     background: #1a1a1a;
-     border-radius: 1px;
-}
-
-.g-border::after {
-     position: absolute;
-     content: "";
-     top: calc(-1 * 1px);
-     left: calc(-1 * 1px);
-     z-index: -1;
-     width: calc(100% + 1px * 2);
-     height: calc(100% + 1px * 2);
-     background: linear-gradient(60deg, #9510c2, #1a1a1a, #e90064);
-     background-size: 300% 300%;
-     background-position: 0 50%;
-     border-radius: calc(2 * var(--border-width));
-     animation: background-g 3s alternate infinite;
-}
-
-@keyframes background-g {
-     50% {
-          background-position: 100% 50%;
-     }
-}
-
-/*-----------------
-Todo Contenido --*/
-#contenido-t {
-     background-image: url(../img/ooorganize.svg);
-     background-attachment: fixed;
+/*-------------------
+Main Backgrounds --*/
+.background {
+     background-image: url('../img/img-pages/bbblurry.svg');
+     background-repeat: no-repeat;
      background-size: cover;
+     background-position: center;
+     height: 100vh;
 }
 
-#contenido-t section {
-     column-gap: 5rem;
-     padding: 20px;
-     display: flex;
-
-     padding-left: calc(70% - 50vw);
-     padding-right: calc(70% - 50vw);
-     padding-top: 2%;
-     padding-bottom: 2%;
-     max-width: 1000%;
-     width: auto;
-     align-items: center;
-
-     background: rgba(26, 26, 26, 0);
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(4.4px);
-     -webkit-backdrop-filter: blur(4.4px);
+.background-2 {
+     background-image: url('../img/img-pages/ooorganize.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
 }
 
 @media screen and (max-width: 600px) {
-     #contenido-t section {
-          display: block;
-          padding-left: calc(60% - 50vw);
-          padding-right: calc(50% - 50vw);
+     .background {
+          height: auto;
+     }
+
+     .background-2 {
+          height: auto;
      }
 }
+
+/*----------------
+First Content --*/
+.first {
+     display: flex;
+     column-gap: 2rem;
+     margin: 5em;
+     padding: 0px 60px;
+     align-items: center;
+     justify-content: center;
+}
+
+/*-------------
+Columns p2 --*/
+.column {
+     flex-basis: 40%;
+     justify-content: center;
+}
+
+.column section {
+     display: flex;
+     padding: 20px;
+
+     background: rgba(150, 16, 194, 0.064);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(20px);
+}
+
+/*-----------
+Items p1 --*/
+.item {
+     flex-basis: 40%;
+     text-align: center;
+     padding: 20px;
+     border: 3px solid #e90064;
+     border-radius: 20px 20px 10px 10px;
+     background: rgba(26, 26, 26, 0.11);
+     backdrop-filter: blur(8.4px);
+}
+
+.item-middel {
+     box-shadow: none;
+     background-image: url("../img/img-pages/nnneon.svg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+     border: none;
+}
+
+.item-middel-flex {
+     display: flex;
+     justify-content: center;
+     column-gap: 2rem;
+}
+
+/*------------------------------
+Media Querry content .first --*/
+@media screen and (max-width: 600px) {
+     .first {
+          display: block;
+          margin: 0;
+          padding: 0px 20px;
+     }
+
+     .item {
+          margin: 20px auto;
+     }
+
+     .item-middel-flex {
+          display: block;
+     }
+}
+
+/* #9510c2, #1a1a1a, #e90064 */
