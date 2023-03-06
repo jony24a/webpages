@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7CD8C26-84C3-2B77-C109-E0869EC3184A" name="Productos">
+<createdBy>ALUMNO</createdBy>
+<createdTime>2022-09-01 16:57:44 UTC</createdTime>
+<generatorID>6070334A-F595-6A3F-3A74-D8DCE5C51188</generatorID>
+<ownerDesignName>nombre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodPro" id="A92F1879-6488-8217-1FD2-ACE263965EAA">
+<createdBy>ALUMNO</createdBy>
+<createdTime>2022-09-01 16:57:44 UTC</createdTime>
+<generatorID>25A1EF56-5030-F9C1-1667-CE1EDD2E34B8</generatorID>
+<ownerDesignName>nombre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomPro" id="EC7307A5-C2D0-45AD-FF4E-A0C3E24227B3">
+<createdBy>ALUMNO</createdBy>
+<createdTime>2022-09-01 16:57:44 UTC</createdTime>
+<generatorID>8CD9D6FC-B8CF-6F11-2B33-9EFF4A453EC6</generatorID>
+<ownerDesignName>nombre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="E77C6464-1F60-2195-E776-3B42C844F891">
+<createdBy>ALUMNO</createdBy>
+<createdTime>2022-09-01 16:57:44 UTC</createdTime>
+<generatorID>EAA299C5-8BF5-3A02-8722-AA4742F0CAC1</generatorID>
+<ownerDesignName>nombre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A92637AC-0066-620F-76B3-E50DAF0C95CB" name="Productos_PK">
+<createdBy>ALUMNO</createdBy>
+<createdTime>2022-09-01 16:57:44 UTC</createdTime>
+<generatorID>CD0315AC-0AA8-CE57-D91E-9BF413364E78</generatorID>
+<ownerDesignName>nombre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A92F1879-6488-8217-1FD2-ACE263965EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

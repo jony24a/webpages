@@ -1,0 +1,26 @@
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.pdb
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form1.resources
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Properties.Resources.resources
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.exe
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.pdb
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Pago.resources
+D:\Visual Studio\Lenguajes de ultima generacion\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.PagoCorrecto.resources
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.exe
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\bin\Debug\Proyecto Final.pdb
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Form1.resources
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Pago.resources
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.PagoCorrecto.resources
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.exe
+C:\Users\ALUMNO\Documents\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.pdb
